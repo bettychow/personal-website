@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("./images/kitty_01.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page1-left {
+  width: 33.33%;
+}
+
+.page1-mid {
+  width: 33.33%;
+}
+
+.page1-right {
+  width: 33.33%;
+  text-align: center;
+}
+
+.page1-title {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poiret One', cursive;
+  font-family: 'Cinzel', serif;
+  margin-left: 20px;
+}
+
+.page1-button {
+  margin-top: 70%;
+  margin-right: 5%;
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page1-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.page2-image {
+  width: 100%;
+  height: auto;
+}
+
+.page2-image-wrapper {
+  width: 60%
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bio {
+  display: inline;
+  flex: 1;
+  padding-top: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 40%;
+}
+
+.navigation-top {
+  background-color: #000;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-nav-bar {
+  line-height: 1 !important;
+  margin: auto;
+  width: auto;
+  max-width: 800px;
+  padding: 0px 0;
+  vertical-align: middle;
+  text-align: left;
+  color: #ffffff;
+  text-align: left;
+}
+
+.title-wrapper {
+  padding-left: 100px;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.page3-title {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.nav-button {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.icons {
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.page3-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page3-left {
+  width: 30%;
+  flex: 1;
+}
+
+.page3-right {
+  width: 70%;
+  padding-left: 20px;
+  text-align: center;
+  overflow-y: scroll;
+  height:800px;
+}
+
+.page3-image {
+  width: 100%;
+  height: auto;
+}
+
+.linkedin-icon {
+  width: 50px;
+}
+
+.portfolio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
